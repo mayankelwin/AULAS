@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando fontes externas baixadas</title>
+    
+    <style>
+        @font-face {
+            font-family: 'Boba';
+            src: url('fonts/Boba Cups.otf') format('opentype'), url('fonts/Boba Cups.ttf') format('truetype');
+            
+            font-weight: normal;
+            font-style: normal;
+            /*
+            Tipos de format
+            - opentype(otf)
+            - truetype(ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Advanced typorgraphy)
+            - svg
+            */
+        }
+        h1 {
+            font-family: 'Boba';
+            font-size: 52px;
+
+        }
+        p {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-weight: bolder;
+            font-size: 18px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>&lt;Zero7 &gt; </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit at esse dolorum, natus voluptas fugit obcaecati provident. Sapiente reiciendis officiis dolorem vitae deleniti maiores recusandae voluptatibus nesciunt, consequuntur veniam placeat.</p>
+    
+</body>
+</html>

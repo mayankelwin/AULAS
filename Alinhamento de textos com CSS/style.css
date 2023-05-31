@@ -1,0 +1,30 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Boba';
+    src: url('fonts/Boba\ Cups.otf') format('opentype'), url('fonts/Boba\ Cups.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;}
+@font-face {
+    font-family: 'Gotico' ;
+    src: url('fonts/Gotika\ .otf') format('opentype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    font-size: 18px;
+}
+h1 {
+    font-family: 'Boba';
+    text-align: center;
+}
+h2 {
+    font-family: 'Gotico';
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+}
+  

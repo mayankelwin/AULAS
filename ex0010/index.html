@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capitulo 11</title>
+</head>
+<body>
+    <h1>imagens que se adaptão sozinhas: </h1>
+
+    <picture>
+        
+        <source media="(max-width: 750px )" srcset="image/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="image/foto-m.png" type="image/png">
+
+        <img src="image/foto-g.png" alt="Flex">
+
+        </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Escuta esse beat:</p>
+    <audio src="midia/X2Download.app - [FREE] Matuê, Teto, WIU - _HAVANA_ Type Beat (Prod. AZVDO x Yoshi) (128 kbps) (1).mp3" controls autoplay ></audio>
+
+    <p>Áudio com mais compatibilidade com os navegadores</p>
+    <audio preload="metadata" autoplay controls loop  >
+        <source src="midia/13B- Não me lembro de você  - Pista importada (1).wav" type="audio/wav">
+
+        <source src="midia/X2Download.app - [FREE] Matuê, Teto, WIU - _HAVANA_ Type Beat (Prod. AZVDO x Yoshi) (128 kbps) (1).mp3" type="audio/mpeg">
+    </audio>
+    <h1>Reproduzindo Videos hospedados localmente</h1>
+    <p>Veja esse video</p>
+    <video src="midia/1674404507-1674404507-Puss-In-Boots-Death.mp4" width="500" controls ></video>
+
+    <p>Posso colocar uma imagem como capa no video</p>
+    <video src="midia/1674404507-1674404507-Puss-In-Boots-Death.mp4" width="500" controls poster="image/capa do video do puss.jpg" ></video>
+
+    <h1>Reproduzindo Vídeos Externos do Youtuber</h1>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/khICbEMOyxU?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+
+
+
+    
+</body>
+</html>

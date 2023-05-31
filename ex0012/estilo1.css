@@ -1,0 +1,18 @@
+    body {
+        background-color:rgb(68, 6, 6);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        
+    }
+    h1 {
+       color: rgb(15, 119, 255);
+    }
+    h2 {
+        color: brown;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    p {
+        color: aqua;
+        text-align: justify;
+    }
+    
